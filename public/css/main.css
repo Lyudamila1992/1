@@ -86,3 +86,42 @@
 	-webkit-filter: brightness(145%);
 	filter: brightness(145%);
 }
+
+ @media (max-width: 768px)
+ {
+.col-4 {
+	width: 50%;
+    float:left;
+    padding:0 45px;
+}
+
+.card {
+	padding-bottom: 50px;
+}
+}
+
+@media (max-width:560px) {
+.col-4 {
+	width: 100%;
+}
+.why_you_choose h2 {
+	font-size: 26px;
+	}
+.why_you_choose h3 {
+	font-size: 20px;
+}	
+}
+
+@media (max-width:320px) {
+.why_you_choose h2 {
+	font-size: 22px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.why_you_choose h3 {
+	font-size: 17px;
+}	
+.why_you_choose span{
+	font-size: 15px;
+}
+}
